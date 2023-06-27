@@ -1,0 +1,15 @@
+echo "Welcome to the pattern program."
+echo "Enter the number of rows you want to print"
+read n
+a=1
+while test $a -le $n
+ do
+  x=1
+  while test $x -le $a
+    do
+     echo -n "*"
+  x=$((x+1)) 
+  done
+  echo
+  a=$((a+1))
+done

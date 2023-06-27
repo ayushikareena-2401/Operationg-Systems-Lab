@@ -1,0 +1,5 @@
+echo "Welcome to the sum program."
+echo "Enter the numbers you want to add."
+read a 
+read b
+echo "The sum of the two numbers are: $((a+b))"

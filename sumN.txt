@@ -1,0 +1,14 @@
+echo "Welcome to the sum of n numbers program."
+echo "Enter the number of elements you want to add."
+read n
+t=1
+sum=0
+while test $t -le $n
+ do
+   read i 
+   sum=$((sum+i))
+   t=$((t+1))
+done
+echo "The sum of then numbers is $sum"
+
+

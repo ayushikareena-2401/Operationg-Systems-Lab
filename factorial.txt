@@ -1,0 +1,11 @@
+echo "Welcome to the factorial program"
+echo "Enter the number whose factorial you want to find."
+read n
+res=1
+while test $n -gt 1
+  do
+     res=$((res*n))
+     n=$((n-1))
+done
+echo "The factorial of the given number is: $res"
+     
