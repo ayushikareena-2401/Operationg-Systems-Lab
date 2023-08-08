@@ -1,0 +1,8 @@
+echo "This program is to return the first and last occurance of the  string."
+echo "Enter the string whose first and last occurance you want to find."
+read var
+echo -n "The first Character of the given string is :"
+echo ${var:0:1}
+echo -n "The last occurance of the given string is :"
+echo ${var: -1}
+
