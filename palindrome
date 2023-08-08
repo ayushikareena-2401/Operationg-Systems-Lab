@@ -1,0 +1,18 @@
+echo "Welcome to the palindrome program."
+echo "Enter the number you want to check"
+read num
+temp=$num
+t=0
+k=""
+while test $num -gt 0
+ do
+   t=$(( $num%10 ))
+   num=$(( $num/10 ))
+   k=$( echo ${k}${t} )
+done
+if [ $temp -eq $k ]; 
+then
+    echo "It is a palindrome."
+ else
+    echo "It is not a palindrome."
+fi
