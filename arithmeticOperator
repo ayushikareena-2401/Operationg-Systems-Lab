@@ -1,0 +1,23 @@
+echo "Welcome to the Arithematic operator program."
+echo "Choose the options."
+echo "1-->add 2-->sub 3-->mul 4-->divide."
+read n
+echo "Enter the two number on which the operation is to be performed."
+read a
+read b
+case $n in
+    1)
+    c=$(( $a+$b )) 
+    echo "Addition is $c"
+    ;;
+    2)
+    echo "Substraction is $((a-b))"
+    ;;
+    3)
+    echo "Multiplication is $((a \*b))"
+    ;;
+     4)
+    echo "Division  is $((a/b))"
+    ;;
+esac
+ 
