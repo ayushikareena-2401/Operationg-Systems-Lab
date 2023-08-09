@@ -1,0 +1,7 @@
+#"This program will tell the number of character,words and line in a file."
+#for line~
+$ wc -l file.txt
+#for word~
+$ wc -w file.txt
+#for character~
+$ wc -c file.txt
