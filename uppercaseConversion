@@ -1,0 +1,9 @@
+echo "The program to convert the filename from lowercase to uppercase."
+echo "Enter the filename you want to convert."
+read n
+echo -n "Before Conversion:"
+echo "$n"
+echo -n "After Conversion of first letter:"
+echo "${n^} "
+echo -n "After conversion of the whole string:"
+echo "${n^^}"
