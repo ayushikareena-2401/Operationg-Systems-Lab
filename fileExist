@@ -1,0 +1,7 @@
+file=C:\Users\HP\Downloads\new
+if test -f "$file";
+then
+    echo "File exists."
+else 
+     echo "File doesnot exist."
+fi
