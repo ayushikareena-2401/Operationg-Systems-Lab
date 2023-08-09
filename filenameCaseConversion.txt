@@ -1,3 +1,4 @@
+#for executing the code there should exist a file with name file.txt.The command will convert the text inside according.
 #for converting lower case to upper~
 
 $ tr a-z A-Z < ./file.txt
