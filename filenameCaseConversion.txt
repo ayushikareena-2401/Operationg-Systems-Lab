@@ -1,0 +1,7 @@
+#for converting lower case to upper~
+
+$ tr a-z A-Z < ./file.txt
+
+#for converting upper case to lower~
+
+$ tr A-Z a-z < ./file.txt
